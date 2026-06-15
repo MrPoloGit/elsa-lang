@@ -1,0 +1,15 @@
+name = "Elsa"
+grammar = "elsa"
+path_suffixes = ["lc"]
+line_comments = ["-- "]
+tab_size = 2
+hard_tabs = false
+
+brackets = [
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "{-", end = "-}", close = true, newline = false },
+]
+
+increase_indent_patterns = [
+    "^\\s*(eval|conf)\\s+\\w+\\s*:",
+]
