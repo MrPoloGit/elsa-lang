@@ -8,10 +8,6 @@ authors = [
 description = "Syntax highlighting for the Elsa lambda calculus teaching language (.lc files)"
 repository = "https://github.com/MrPoloGit/zed-elsa"
 
-# After pushing tree-sitter-elsa to GitHub, replace the file:// URL and
-# set commit to the SHA of the pushed commit:
-#   repository = "https://github.com/MrPoloGit/tree-sitter-elsa"
-#   commit = "<full-sha>"
 [grammars.elsa]
-repository = "file:///Users/marcofrank/Projects/zed-elsa-stuff/tree-sitter-elsa"
-rev = "HEAD"
+repository = "https://github.com/MrPoloGit/tree-sitter-elsa"
+rev = "ea156226ffcc0659b7e1a7d1f94fcf204df73d2c"
